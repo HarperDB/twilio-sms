@@ -1,0 +1,5 @@
+type OptInStatus @table @export {
+  id: ID @primaryKey
+  phoneNumber: Number @indexed
+  status: String @indexed
+}
