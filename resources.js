@@ -1,6 +1,3 @@
-// add endpoint to listen for the following:
-// https://help.twilio.com/articles/31560110671259-How-to-Track-Opt-Out-Opt-In-and-Help-Messages-Using-the-OptOutType-Parameter
-
 // keyval optOutType populates on ALL inbound key words: help, start, subscribe, etc.
 // need to track both opt ins and opt outs
 const optOutKeywords = ["cancel", "end", "quit", "stop", "stopall", "unsubscribe", "revoke", "optout"];
