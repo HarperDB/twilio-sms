@@ -8,7 +8,8 @@
     "sms",
     "messaging",
     "opt-in",
-    "opt-out"
+    "opt-out",
+    "sms compliance"
   ],
   "homepage": "https://github.com/HarperDB/twilio-sms-optout-tracker#readme",
   "bugs": {

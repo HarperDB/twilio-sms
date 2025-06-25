@@ -1,5 +1,4 @@
-type OptInStatus @table @export {
-  id: ID @primaryKey
-  phoneNumber: Number @indexed
+type PhoneNumbers @table @export {
+  phoneNumber: String @primaryKey
   status: String @indexed
 }
