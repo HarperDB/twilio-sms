@@ -20,9 +20,12 @@ There are several ways to listen for inbound messages on Twilio & use this compo
 ## Usage
 
 ### Local Development
-[install Harper](https://docs.harperdb.io/docs/deployments/install-harper#install) or run `npm i -g harperdb`
+[Install Harper](https://docs.harperdb.io/docs/deployments/install-harper#install) or run `npm i -g harperdb`
+
 git clone this repo & cd to it
+
 npm i
+
 npm run dev
 
 ### Endpoints
@@ -32,6 +35,6 @@ npm run dev
 | `/PhoneNumbers`    | Direct REST interface for the PhoneNumbers table                |
 
 ### Deployment
-Deploy this component wherever you like: Linode, AWS, GCP, DigitalOcean, on prem
+Deploy this Harper component wherever you like: Linode, AWS, GCP, DigitalOcean, on prem
 
-Ensure harperdb is installed on the machine 
+[Follow the Harper installation guide](https://docs.harperdb.io/docs/deployments/install-harper) on the machine where this will be deployed
