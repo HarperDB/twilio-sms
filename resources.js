@@ -19,10 +19,10 @@ function updateStatus(data) {
 }
 
 export class optInStatus extends Resource {
-  async post (data) {
+  post (data) {
     // optOutType is a conditional SMS kv that populates on any keyword, otherwise is null
     if (data.OptOutType) {
-      return await updateStatus(data);
+      return updateStatus(data);
     }
     return null;
   }
