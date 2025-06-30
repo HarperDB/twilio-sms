@@ -20,6 +20,7 @@ How to listen for inbound messages with OptOutType & use this component:
 4. Add https://this-applications-url.com/optInStatus to the Request URL
 5. Make sure to leave it as a POST
 6. Save!
+7. Verify this component is working by texting an opt-in or opt-out keyword to a phone number in the service. This will appear in the Harper datatable PhoneNumbers: accessible either in your [Harper Studio UI](https://docs.harperdb.io/docs/administration/harper-studio) or via the RESTful API endpoint for PhoneNumbers
 
 ## Usage
 
