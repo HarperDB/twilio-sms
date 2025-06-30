@@ -17,7 +17,7 @@ function updateStatus(data) {
 
 export class optInStatus extends Resource {
   post (data) {
-    // OptOutType is a conditional kv that populates on a keyword
+    // OptOutType is a kv that only populates on an inbound SMS keyword
     if (data.OptOutType) {
       return updateStatus(data);
     }
