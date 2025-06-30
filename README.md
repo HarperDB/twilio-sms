@@ -13,9 +13,13 @@ This component offers an easy to use endpoint and storage system to add as your 
 
 This component listens on inbound SMS for the [OptOutType Parameter](https://help.twilio.com/articles/31560110671259-How-to-Track-Opt-Out-Opt-In-and-Help-Messages-Using-the-OptOutType-Parameter) and subsequently updates the phone number's corresponding status.
 
-There are several ways to listen for inbound messages on Twilio & use this component:
-1. Add the endpoint for this application in your sender webhook & POST inbound data to https://this-applications-url.com/optInStatus
-2. In the Twilio Console, go to your Twilio Messaging Services > select service > Integrations > select Send a webhook for Incoming Messages > add https://this-applications-url.com/optInStatus to the Request URL & leave it as a POST
+How to listen for inbound messages with OptOutType & use this component:
+1. In the Twilio Console, go to _Twilio Messaging Services_
+2. Select a service and click on _Integrations_
+3. Select _Send a webhook for Incoming Messages_
+4. Add https://this-applications-url.com/optInStatus to the Request URL
+5. Make sure to leave it as a POST
+6. Save!
 
 ## Usage
 
